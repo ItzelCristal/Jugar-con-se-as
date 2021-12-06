@@ -1,7 +1,6 @@
-[
-    {
+[{
         "categoria": "Colores",
-        "pregunta": "Que color se muestra",
+        "pregunta": "¿Qué color se muestra?",
         "respuesta": "Amarillo",
         "incorrecta1": "Verde",
         "incorrecta2": "Naranja",
@@ -11,7 +10,7 @@
     },
     {
         "categoria": "Colores",
-        "pregunta": "Que color se muestra",
+        "pregunta": "¿Qué color se muestra?",
         "respuesta": "Azul",
         "incorrecta1": "Naranja",
         "incorrecta2": "Amarillos",
@@ -21,7 +20,7 @@
     },
     {
         "categoria": "Colores",
-        "pregunta": "Que color se muestra",
+        "pregunta": "¿Qué color se muestra?",
         "respuesta": "Cafe",
         "incorrecta1": "Morado",
         "incorrecta2": "Gris",
@@ -31,7 +30,7 @@
     },
     {
         "categoria": "Colores",
-        "pregunta": "Que color se muestra",
+        "pregunta": "¿Qué color se muestra?",
         "respuesta": "Morado",
         "incorrecta1": "Rosa",
         "incorrecta2": "Azul",
@@ -41,7 +40,7 @@
     },
     {
         "categoria": "Colores",
-        "pregunta": "Que color se muestra",
+        "pregunta": "¿Qué color se muestra?",
         "respuesta": "Naranja",
         "incorrecta1": "Negro",
         "incorrecta2": "Azul",
@@ -51,7 +50,7 @@
     },
     {
         "categoria": "Colores",
-        "pregunta": "Que color se muestra",
+        "pregunta": "¿Qué color se muestra?",
         "respuesta": "Negro",
         "incorrecta1": "Rosa",
         "incorrecta2": "Naranja",
@@ -61,7 +60,7 @@
     },
     {
         "categoria": "Colores",
-        "pregunta": "Que color se muestra",
+        "pregunta": "¿Qué color se muestra?",
         "respuesta": "Rojo",
         "incorrecta1": "Azul",
         "incorrecta2": "Negro",
@@ -71,7 +70,7 @@
     },
     {
         "categoria": "Colores",
-        "pregunta": "Que color se muestra",
+        "pregunta": "¿Qué color se muestra?",
         "respuesta": "Rosa",
         "incorrecta1": "Rojo",
         "incorrecta2": "Morado",
@@ -81,7 +80,7 @@
     },
     {
         "categoria": "Colores",
-        "pregunta": "Que color se muestra",
+        "pregunta": "¿Qué color se muestra?",
         "respuesta": "Verde",
         "incorrecta1": "Azul",
         "incorrecta2": "Gris",
