@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ABECEDARIO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="styleabc.css">
+    <link rel="shortcut icon" href="abecedario.png">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+</head>
+
+<body>
+    <div class="principal">
+        <img src="img/altavozOff.png" alt="altavoz" id="altavoz" onclick="controlMusicaFondo()">
+    </div>
+    <div class="button">
+        <a href="javascript: history.go(-1)" style="text-decoration:none">VOLVER</a>
+    </div>
+    <div class="titulo">
+
+        <h1>ABECEDARIO</h1>
+        <p>Arrastra la letra hasta la seña correspondiente</p>
+
+
+        <main class="container">
+            <div>
+                <ul class="draggable-list">
+
+                    <li id="e1" draggable="true"><img src="lsm/A.png"></li>
+                    <li id="e2" draggable="true"><img src="lsm/B.png"></li>
+                    <li id="e3" draggable="true"><img src="lsm/C.png"></li>
+                    <li id="e4" draggable="true"><img src="lsm/D.png"></li>
+                    <li id="e5" draggable="true"><img src="lsm/E.png"></li>
+                    <li id="e6" draggable="true"><img src="lsm/F.png"></li>
+                    <li id="e7" draggable="true"><img src="lsm/G.png"></li>
+                    <li id="e8" draggable="true"><img src="lsm/H.png"></li>
+                    <li id="e9" draggable="true"><img src="lsm/I.png"></li>
+                    <li id="e10" draggable="true"><img src="lsm/J.png"></li>
+                    <li id="e11" draggable="true"><img src="lsm/K.png"></li>
+                    <li id="e12" draggable="true"><img src="lsm/L.png"></li>
+
+                    <li id="e14" draggable="true"><img src="lsm/M.png"></li>
+                    <li id="e15" draggable="true"><img src="lsm/N.png"></li>
+                    <li id="e16" draggable="true"><img src="lsm/Ñ.png"></li>
+                    <li id="e17" draggable="true"><img src="lsm/O.png"></li>
+                    <li id="e18" draggable="true"><img src="lsm/P.png"></li>
+                    <li id="e19" draggable="true"><img src="lsm/Q.png"></li>
+                    <li id="e20" draggable="true"><img src="lsm/R.png"></li>
+
+                    <li id="e22" draggable="true"><img src="lsm/S.png"></li>
+                    <li id="e23" draggable="true"><img src="lsm/T.png"></li>
+                    <li id="e24" draggable="true"><img src="lsm/U.png"></li>
+                    <li id="e25" draggable="true"><img src="lsm/V.png"></li>
+                    <li id="e26" draggable="true"><img src="lsm/W.png"></li>
+                    <li id="e27" draggable="true"><img src="lsm/X.png"></li>
+                    <li id="e28" draggable="true"><img src="lsm/Y.png"></li>
+                    <li id="e29" draggable="true"><img src="lsm/Z.png"></li>
+
+                </ul>
+            </div>
+            <div>
+                <ul class="draggable-list">
+                    <li id="s2" draggable="true"><img src="ABC/B.png"></li>
+                    <li id="s5" draggable="true"><img src="ABC/E.png"></li>
+                    <li id="s1" draggable="true"><img src="ABC/A.png"> </li>
+                    <li id="s3" draggable="true"><img src="ABC/C.png"></li>
+                    <li id="s4" draggable="true"><img src="ABC/D.png"></li>
+                    <li id="s6" draggable="true"><img src="ABC/F.png"></li>
+                    <li id="s10" draggable="true"><img src="ABC/J.png"></li>
+                    <li id="s7" draggable="true"><img src="ABC/G.png"> </li>
+                    <li id="s8" draggable="true"><img src="ABC/H.png"></li>
+                    <li id="s9" draggable="true"><img src="ABC/I.png"></li>
+                    <li id="s12" draggable="true"><img src="ABC/L.png"></li>
+
+                    <li id="s11" draggable="true"><img src="ABC/K.png"></li>
+                    <li id="s17" draggable="true"><img src="ABC/O.png"> </li>
+                    <li id="s14" draggable="true"><img src="ABC/M.png"></li>
+                    <li id="s16" draggable="true"><img src="ABC/Ñ.png"></li>
+                    <li id="s15" draggable="true"><img src="ABC/N.png"></li>
+                    <li id="s19" draggable="true"><img src="ABC/Q.png"></li>
+                    <li id="s20" draggable="true"><img src="ABC/R.png"></li>
+                    <li id="s22" draggable="true"><img src="ABC/S.png"> </li>
+
+
+                    <li id="s18" draggable="true"><img src="ABC/P.png"></li>
+                    <li id="s25" draggable="true"><img src="ABC/V.png"></li>
+                    <li id="s26" draggable="true"><img src="ABC/W.png"></li>
+                    <li id="s23" draggable="true"><img src="ABC/T.png"> </li>
+                    <li id="s24" draggable="true"><img src="ABC/U.png"></li>
+                    <li id="s27" draggable="true"><img src="ABC/X.png"></li>
+                    <li id="s28" draggable="true"><img src="ABC/Y.png"></li>
+                    <li id="s29" draggable="true"><img src="ABC/Z.png"> </li>
+                </ul>
+            </div>
+
+        </main>
+
+        <div id="endMessage">
+            <h2>¡Bien hecho!</h3>
+                <button onclick="playAgain()">Volver a Jugar</button>
+        </div>
+
+        <script src="scriptabc.js"></script>
+
+</body>
+
+</html>

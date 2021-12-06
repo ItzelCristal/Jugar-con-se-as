@@ -1,0 +1,153 @@
+  /*Sopa de letras*/
+  
+  #juego {
+      border: 5px solid rgb(31, 24, 4);
+      padding: 0% 8.5%;
+      float: left;
+      margin: -8% 2px 5px 272px;
+      justify-content: center;
+      background: rgb(255, 235, 59);
+      position: relative;
+  }
+  
+  #juego div {
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      background-color: rgb(177, 162, 29);
+  }
+  /* style for each square in the puzzle */
+  
+  #juego .puzzleSquare {
+      height: 35px;
+      width: 35px;
+      text-transform: uppercase;
+      background-color: rgb(236, 243, 243);
+      border: 0;
+      font: 1em sans-serif;
+      justify-content: center;
+  }
+  
+  button::-moz-focus-inner {
+      border: 0;
+      background-position: 50% 100%;
+      background-color: white;
+  }
+  /* indicates when a square has been selected */
+  
+  #juego .selected {
+      background-color: #f5bd30;
+      background-position: 50% 100%;
+  }
+  /* indicates that the square is part of a word that has been found */
+  
+  #juego .found {
+      background-color: hsl(83, 93%, 53%);
+      color: white;
+      background-position: 50% 100%;
+  }
+  
+  #juego .solved {
+      background-color: #f6de06;
+      color: white;
+      background-position: 50% 100%;
+  }
+  /* indicates that all words have been found */
+
+
+  #juego .complete {
+      background-color: rgb(19, 19, 18);
+      justify-content: center;
+      background-position: 50% 100%;
+      /*70,100*/
+  }
+  /**
+  * Styles for the word list
+  */
+  
+  #Palabras {
+      padding-top: 20px;
+      -moz-column-count: 2;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 20px;
+      column-count: 2;
+      column-gap: 20px;
+      width: 450px;
+      font-family: oblique bold 120% cursive;
+      font-size: 20px;
+      opacity: 80%;
+      background-color: rgb(255, 255, 255);
+      justify-content: center;
+      margin: 10px 350px 20px 290px;
+      justify-content: center;
+      position: relative;
+      left: 10%;
+      top: 10%;
+  }
+  
+  #Palabras ul {
+      list-style-type: none;
+      justify-content: center;
+      background-color: white;
+  }
+  
+  #Palabras li {
+      padding: 3px 0;
+      font: 1em sans-serif;
+      justify-content: center;
+      background-color: white;
+  }
+  /* indicates that the word has been found */
+  
+  #Palabras .wordFound {
+      text-decoration: line-through;
+      justify-content: center;
+      background-color: white;
+  }
+  
+  #solve {
+      cursor: pointer;
+      background: linear-gradient(#d6b210, #f6de06);
+      padding: 20px;
+      border-radius: 50px;
+      border: white 5px solid;
+      font-size: 130%;
+      justify-content: center;
+      margin: 0 30px;
+      position: relative;
+      left: 35%;
+      top: 10%;
+  }
+  /**** TITULO*****/
+  
+  @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Signika:700,300,600');
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      min-height: 30vh;
+      background-image: url('fondo.png');
+      background-repeat: repeat;
+      background-size: cover;
+      overflow-x: hidden;
+  }
+  
+  /***altavoz****/
+  
+  #altavoz {
+      margin-top: 1%;
+      position: relative;
+      left: 2%;
+      width: 4%;
+  }

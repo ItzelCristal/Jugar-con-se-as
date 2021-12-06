@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ACCIONES</title>
+
+    <link rel="stylesheet" href="css/accion2.css">
+
+    <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/wordfind.js"></script>
+    <script type="text/javascript" src="js/wordfindgame.js"></script>
+    <link rel="shortcut icon" href="img/acciones.png">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+</head>
+
+<body>
+    <div class="principal">
+        <img src="img/altavozOff.png" alt="altavoz" id="altavoz" onclick="controlMusicaFondo()">
+    </div>
+    <div class="titulo">
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <div id='juego'></div>
+        <div id='Palabras'></div>
+
+
+
+
+
+        <button id='solve'>Resolver el juego</button>
+        </br>
+        </br>
+        </br>
+
+
+
+
+
+        <script>
+            var words = ['Hola', 'DeNada', 'Gracias', 'BuenosDias', 'Porfavor', 'Adios', 'ComoEstas'];
+            var gamePuzzle = wordfindgame.create(words, '#juego', '#Palabras');
+
+            var puzzle = wordfind.newPuzzle(words, {
+                height: 18,
+                width: 18,
+                fillBlanks: false
+            });
+            wordfind.print(puzzle);
+
+            $('#solve').click(function() {
+                wordfindgame.solve(gamePuzzle, words);
+            });
+        </script>
+
+
+
+</body>
+<script src="js/scriptaudio.js"></script>
+
+</html>

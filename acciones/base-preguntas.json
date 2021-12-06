@@ -1,0 +1,94 @@
+[{
+        "categoria": "Numeros",
+        "pregunta": "Si quieres contar, por mí tienes que empezar. ¿Cuál número soy?",
+        "respuesta": "1",
+        "incorrecta1": "3",
+        "incorrecta2": "9\r",
+
+        "imagen": "img de numero/1.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Numeros",
+        "pregunta": "Tengo forma de patito arqueado y redondito. ¿Cuál número soy?",
+        "respuesta": "2",
+        "incorrecta1": "6",
+        "incorrecta2": "8",
+        "incorrecta3": "No se\r",
+        "imagen": "img de numero/2.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Numeros",
+        "pregunta": "Tengo forma de serpiente, pero no la que más miente",
+        "respuesta": "3",
+        "incorrecta1": "1000",
+        "incorrecta2": "1",
+        "incorrecta3": "7\r",
+        "imagen": "img de numero/3.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Numeros",
+        "pregunta": "¿Cuantas patas tiene un perro",
+        "respuesta": "4",
+        "incorrecta1": "0",
+        "incorrecta2": "8",
+        "incorrecta3": "7\r",
+        "imagen": "img de numero/4.jpg"
+    },
+    {
+        "categoria": "Numeros",
+        "pregunta": "Los tienes en las manos y los tienes en  los pies  y en seguida sabrás  qué número es.",
+        "respuesta": "5",
+        "incorrecta1": "6",
+        "incorrecta2": "9",
+        "incorrecta3": "1\r",
+        "imagen": "img de numero/5.jpg"
+    },
+    {
+        "categoria": "Numeros",
+        "pregunta": "Si le sumas su hermano gemelo al tres, ya sabes cuál es.",
+        "respuesta": "6",
+        "incorrecta1": "3",
+        "incorrecta2": "2",
+        "incorrecta3": "9 \r",
+        "imagen": "img de numero/6.jpg"
+    },
+    {
+        "categoria": "Numeros",
+        "pregunta": "¿Cuantos colores tiene el arcoiris?",
+        "respuesta": "7",
+        "incorrecta1": "4",
+        "incorrecta2": "9",
+        "incorrecta3": "1\r",
+        "imagen": "img de numero/7.jpg"
+    },
+    {
+        "categoria": "Numeros",
+        "pregunta": "Parece un reloj de arena o el eslabón de una cadena",
+        "respuesta": "8",
+        "incorrecta1": "7",
+        "incorrecta2": "5",
+        "incorrecta3": "9\r",
+        "imagen": "img de numero/8.jpg"
+    },
+    {
+        "categoria": "Numeros",
+        "pregunta": "Soy un seis pero estoy al reves",
+        "respuesta": "9",
+        "incorrecta1": "5",
+        "incorrecta2": "6",
+        "incorrecta3": "7\r",
+        "imagen": "img de numero/9.jpg"
+    },
+    {
+        "categoria": "Numeros",
+        "pregunta": "Redondo soy y es cosa anunciada. Si estoy a la derecha algo valgo, pero a la izquierda soy nada. ¿Cuál número soy?",
+        "respuesta": "0",
+        "incorrecta1": "5‎ ",
+        "incorrecta2": "8 ",
+        "incorrecta3": "3",
+        "imagen": "img de numero/0.jpg"
+    }
+]
