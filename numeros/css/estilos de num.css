@@ -1,0 +1,163 @@
+        /**** TITULO*****/
+        
+        @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Signika:700,300,600');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s;
+        }
+        
+        body {
+            position: relative;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            background-image: url('fondo.png');
+            background-repeat: repeat;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+        
+        .titulo {
+            height: 150px;
+            width: 100%;
+            opacity: 100%;
+        }
+        /*PREGUNTAS **/
+        
+        #altavoz {
+            margin-top: 1%;
+            position: relative;
+            left: -42%;
+            width: 5%;
+            height: 2%;
+        }
+        
+        body {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            font-family: calibri;
+            font-size: 373%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .contenedor {
+            width: 100%;
+            height: 100%;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .encabezado {
+            position: relative;
+            background: #00ffd5;
+            width: 346px;
+            height: 853px;
+            padding: 32px;
+            border-radius: 20px;
+        }
+        
+        .categoria {
+            opacity: 0.3;
+            text-align: left;
+        }
+        
+        .pregunta {
+            padding: 10px;
+            font-size: 20px;
+        }
+        
+        body div a {
+            position: center;
+            display: inline-block;
+            padding: 1px 85px;
+            margin-top: -239px;
+            margin-block-end: 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 00;
+            color: rgb(0, 0, 0);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            font-size: 0.3em;
+            align-content: center;
+        }
+        
+        a:hover {
+            transform: scale(1.05);
+        }
+        
+        img {
+            object-fit: cover;
+            height: 50em;
+            width: 20em;
+            border-radius: 18px;
+        }
+
+        .btn {
+            background: #00ffd5;
+            color: black;
+            width: 60%;
+            max-width: 550px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 30px;
+            font-size: 15px;
+            padding: 10px 57px;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .numero {
+            position: absolute;
+            opacity: 0.3;
+            top: 10px;
+            right: 10px;
+            font-size: 30px;
+        }
+        .opcion {
+            width: 2em;
+            align-content: center;
+
+        }
+        .puntaje {
+            padding: 10px;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+        }
+        a {
+            cursor: pointer;
+            background: linear-gradient(#F6A9A9, #F6A9A9);
+            padding: 2%;
+            border-radius: 42px;
+            font-size: 128%;
+            justify-content: center;
+            user-select: none;
+            text-align: center;
+            border: rgb(15, 224, 231) 5px solid;
+        }
+        /* Flecha */
+        /*
+.flecha {
+    
+    
+}
+*/
+        
+        #altavoz {
+            margin-top: 1%;
+            position: relative;
+            left: 2%;
+            width: 4%;
+        }

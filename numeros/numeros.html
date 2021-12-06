@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jugar con Señas</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos de num.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/numeros.png">
+</head>
+
+<body>
+    <div class="principal">
+        <img src="img/altavozOff.png" alt="altavoz" id="altavoz" onclick="controlMusicaFondo()">
+    </div>
+    <div class="button">
+        <a href="javascript: history.go(-1)" style="text-decoration:none">VOLVER</a>
+    </div>
+    <div class="titulo">
+
+        <br></br>
+
+        <div class="contenedor">
+
+
+            <div class="encabezado">
+                <div class="puntaje" id="puntaje"></div>
+                <div class="categoria" id="categoria">
+                </div>
+                <div class="numero" id="numero"></div>
+                <div class="pregunta" id="pregunta">
+                </div>
+                <img src="#" class="imagen" id="imagen">
+            </div>
+
+            <div class="opcion">
+                <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+                <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+                <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+                <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+            </div>
+            <br/>
+            <br/>
+
+
+            <br/> <br/>
+
+
+            <script src="js/index.js"></script>
+            <script src="js/scriptaudio.js"></script>
+
+        </div>
+
+</body>
+
+</html>
