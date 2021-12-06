@@ -1,0 +1,28 @@
+   .contiene-video {
+       position: relative;
+       overflow: hidden;
+       width: 100%;
+       padding-top: 56.25%;
+   }
+   
+   .contiene-video iframe {
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .button {
+       cursor: pointer;
+       background: linear-gradient(#F6A9A9, #F6A9A9);
+       padding: 40px;
+       border-radius: 50px;
+       border: rgb(15, 224, 231) 5px solid;
+       font-size: 120%;
+       justify-content: center;
+       user-select: none;
+       text-align: center;
+   }

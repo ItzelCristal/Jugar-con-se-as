@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PREGUNTAS</title>
+    <link rel="shortcut icon" href="img/colores.png">
+</head>
+<div class="principal">
+    <img src="img/altavozOff.png" alt="altavoz" id="altavoz" onclick="controlMusicaFondo()">
+</div>
+
+<body background="fondo.png">
+    <style>
+        * {
+            transition: all 0.3s;
+        }
+        
+        #altavoz {
+            margin-top: 1%;
+            position: relative;
+            left: -42%;
+            width: 5%;
+            height: 2%;
+        }
+        
+        body {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            font-family: calibri;
+            font-size: 373%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .contenedor {
+            width: 100%;
+            height: 100%;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .encabezado {
+            position: relative;
+            background: #00ffd5;
+            width: 553px;
+            height: 820px;
+            padding: 10px;
+            border-radius: 30px;
+        }
+        
+        .categoria {
+            opacity: 0.3;
+            text-align: left;
+        }
+        
+        .pregunta {
+            padding: 10px;
+        }
+        
+        body div a {
+            position: relative;
+            display: inline-block;
+            padding: 6px 10px;
+            background: #1fadff;
+            margin-top: 245px;
+            margin-block-end: 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 00;
+            color: rgb(0, 0, 0);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            font-size: 2.0em;
+        }
+        
+        a:hover {
+            transform: scale(1.05);
+        }
+        
+        img {
+            object-fit: cover;
+            height: 50em;
+            width: 20em;
+            border-radius: 18px;
+        }
+
+        .btn {
+            background: #00ffd5;
+            color: black;
+            width: 60%;
+            max-width: 550px;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .numero {
+            position: absolute;
+            opacity: 0.3;
+            top: 10px;
+            right: 10px;
+        }
+        
+        .puntaje {
+            padding: 10px;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+
+    <div class="contenedor">
+        <div class="puntaje" id="puntaje"></div>
+        <div class="encabezado">
+            <div class="categoria" id="categoria">
+            </div>
+            <div class="numero" id="numero"></div>
+            <div class="pregunta" id="pregunta">
+            </div>
+            <img src="#" class="imagen" id="imagen">
+        </div>
+        <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+        <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+        <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+        <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+
+        <script src="index.js"></script>
+    </div>
+    <div>
+        <a href="javascript: history.go(-1)">Volver</a>
+    </div>
+</body>
+<script src="scriptaudio.js"></script>
+
+</html>

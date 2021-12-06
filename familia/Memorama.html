@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="memoramaestilos.css">
+    <link rel="shortcut icon" href="img/familia.png">
+    <meta name="viewport" content="width=device-width, 
+    user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+</head>
+
+<body>
+    <div class="principal">
+        <img src="img/altavozOff.png" alt="altavoz" id="altavoz" onclick="controlMusicaFondo()">
+    </div>
+    <div class="titulo">
+        <div class="Flecha">
+            <img src="https://www.montessoriarica.cl/wp-content/uploads/2019/03/FlechaIzquierda.gif" border="0" onclick="history.back(-1);" width="80px" height="80px" align="left">
+        </div>
+        <br></br>
+    </div>
+
+
+    <br>
+    <div div id="tablero">
+    </div>
+    <br>
+
+    <div class="nuevo-juego" onclick="generarTablero()">
+        Nuevo Juego
+    </div>
+
+
+
+    <i class="fas fa-ellipsis-v btn-menu"></i>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/scriptmemorama.js"></script>
+    <script src="js/scriptaudio.js"></script>
+</body>
+
+</html>

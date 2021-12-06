@@ -1,0 +1,92 @@
+[
+    {
+        "categoria": "Colores",
+        "pregunta": "Que color se muestra",
+        "respuesta": "Amarillo",
+        "incorrecta1": "Verde",
+        "incorrecta2": "Naranja",
+        "incorrecta3": "Gris\r",
+        "imagen": "img de colores/amarillo.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "Que color se muestra",
+        "respuesta": "Azul",
+        "incorrecta1": "Naranja",
+        "incorrecta2": "Amarillos",
+        "incorrecta3": "Verde\r",
+        "imagen": "img de colores/azul.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "Que color se muestra",
+        "respuesta": "Cafe",
+        "incorrecta1": "Morado",
+        "incorrecta2": "Gris",
+        "incorrecta3": "Rosa\r",
+        "imagen": "img de colores/cafe.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "Que color se muestra",
+        "respuesta": "Morado",
+        "incorrecta1": "Rosa",
+        "incorrecta2": "Azul",
+        "incorrecta3": "Gris\r",
+        "imagen": "img de colores/morado.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "Que color se muestra",
+        "respuesta": "Naranja",
+        "incorrecta1": "Negro",
+        "incorrecta2": "Azul",
+        "incorrecta3": "Rojo\r",
+        "imagen": "img de colores/naranja.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "Que color se muestra",
+        "respuesta": "Negro",
+        "incorrecta1": "Rosa",
+        "incorrecta2": "Naranja",
+        "incorrecta3": "Verde\r",
+        "imagen": "img de colores/negro.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "Que color se muestra",
+        "respuesta": "Rojo",
+        "incorrecta1": "Azul",
+        "incorrecta2": "Negro",
+        "incorrecta3": "Gris\r",
+        "imagen": "img de colores/rojo.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "Que color se muestra",
+        "respuesta": "Rosa",
+        "incorrecta1": "Rojo",
+        "incorrecta2": "Morado",
+        "incorrecta3": "Naranja\r",
+        "imagen": "img de colores/rosa.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "Que color se muestra",
+        "respuesta": "Verde",
+        "incorrecta1": "Azul",
+        "incorrecta2": "Gris",
+        "incorrecta3": "Rojo\r",
+        "imagen": "img de colores/Verde.png",
+        "objectFit": "cover"
+    }
+]
